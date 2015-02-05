@@ -13,8 +13,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
-app.get
-
 app.post('/message', function (req, res) {
   ee.emit('message', [req.body])
   res.status(200).send()
