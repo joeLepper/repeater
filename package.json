@@ -1,0 +1,20 @@
+{
+  "name": "repeater",
+  "version": "1.0.0",
+  "description": "A server which takes a message and repeats it as a server-sent event",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Joe Lepper",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "nee": "^1.1.0",
+    "sse": "0.0.6"
+  },
+  "devDependencies": {
+    "needle": "^0.7.11"
+  }
+}
